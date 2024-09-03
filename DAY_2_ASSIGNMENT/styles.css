@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+.two ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;   
+}
+.two{
+    color: white;
+    background-color: black;
+    /* margin-left: 470px; */
+    padding-left: 470px;
+}
+.one h4 {
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+}
+.one {
+    padding: 5px 0px;
+}
+.box{
+    background-color: black;
+}
+.three h4{
+    color: rgb(0, 0,255);
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    /* background-color: rgb(197, 30, 30); */
+
+}
+.three {
+    background-color: white;
+    padding-bottom: 20px;
+}
+.three h5{
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+/* .three img{
+/*     
+    background-color: rgb(145, 20, 20); */
+/* } */ */
+body{
+    background-color: rgb(117, 15, 15) !important;
+}
+.four {
+    background-color: white;
+    padding: 10px,10px,10px,10px;
+}
+.four h5{
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+.four h4{
+    color: rgb(0, 0,255);
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    /* background-color: rgb(197, 30, 30); */
+
+}
+
+
+.four ul{
+    padding-left: 50px;
+}
+
+.five {
+    background-color: white;
+    padding: 10px,10px,10px,10px;
+}
+.five h5{
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+.five h4{
+    color: rgb(0, 0,255);
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    /* background-color: rgb(197, 30, 30); */
+
+}
+.five ul{
+    padding-left: 50px;
+}
+.six {
+    background-color: white;
+    padding: 10px,10px,10px,10px;
+}
+.six h4{
+    color: rgb(0, 0,255);
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 20px 15px;
+    /* background-color: rgb(197, 30, 30); */
+
+}
+.six{
+        font-size: 14px;
+        padding-bottom: 50px;
+
+}
+.footer{
+    font-size: 14px;
+    padding-bottom: 13px;
+    
+}
+
+.footer p{
+   color: white;
+    
+}
