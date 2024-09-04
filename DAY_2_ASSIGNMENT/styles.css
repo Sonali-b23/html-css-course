@@ -1,121 +1,64 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-.container{
-    width: 95%;
-    margin: auto;
-}
-.two ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;   
-}
-.two{
-    color: white;
-    background-color: black;
-    /* margin-left: 470px; */
-    padding-left: 470px;
-}
-.one h4 {
-    color: rgb(0, 0, 255);
-    font-size: 25px;
-}
-.one {
-    padding: 5px 0px;
-}
-.box{
-    background-color: black;
-}
-.three h4{
-    color: rgb(0, 0,255);
-    padding-top: 10px;
-    font-size: 20px;
-    padding: 10px 15px;
-    /* background-color: rgb(197, 30, 30); */
-
-}
-.three {
-    background-color: white;
-    padding-bottom: 20px;
-}
-.three h5{
-    font-size: 14px;
-    padding-bottom: 13px;
-}
-/* .three img{
-/*     
-    background-color: rgb(145, 20, 20); */
-/* } */ */
 body{
-    background-color: rgb(117, 15, 15) !important;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.four {
-    background-color: white;
-    padding: 10px,10px,10px,10px;
+header{
+    text-align: center;
 }
-.four h5{
-    font-size: 14px;
-    padding-bottom: 13px;
-}
-.four h4{
+h1, h2{
     color: rgb(0, 0,255);
-    padding-top: 10px;
-    font-size: 20px;
-    padding: 10px 15px;
-    /* background-color: rgb(197, 30, 30); */
-
 }
-
-
-.four ul{
-    padding-left: 50px;
+nav{
+    background-color: black;
+    text-align: center;
 }
-
-.five {
-    background-color: white;
-    padding: 10px,10px,10px,10px;
+nav ul li{
+    list-style-type:none;
+    color:whitesmoke;
+    display: inline-block;
+    padding: 10px 20px;
 }
-.five h5{
-    font-size: 14px;
-    padding-bottom: 13px;
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 12px;
+    transition: color 0.3s, background-color 0.3s, color 0.3s, box-shadow 0.3s;
 }
-.five h4{
-    color: rgb(0, 0,255);
-    padding-top: 10px;
-    font-size: 20px;
-    padding: 10px 15px;
-    /* background-color: rgb(197, 30, 30); */
-
+nav ul li:hover{
+    color: #7d8298;
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-.five ul{
-    padding-left: 50px;
+section{
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
 }
-.six {
-    background-color: white;
-    padding: 10px,10px,10px,10px;
+footer{
+    background-color: black;
+    text-align: center;
+    color:whitesmoke;
+    padding: 10px 10px;
 }
-.six h4{
-    color: rgb(0, 0,255);
-    padding-top: 10px;
-    font-size: 20px;
-    padding: 20px 15px;
-    /* background-color: rgb(197, 30, 30); */
-
+.one{
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    margin-left: 470px;
 }
-.six{
-        font-size: 14px;
-        padding-bottom: 50px;
-
+#curriculum ul{
+    display: flex;
+    padding: 6px;
+    gap: 10px;
 }
-.footer{
-    font-size: 14px;
-    padding-bottom: 13px;
-    
+#curriculum li{
+    list-style: none;
+    text-align: center;
+    background-color:#f4eeee;
+    padding: 8px;
+    border-radius: 5px;
 }
-
-.footer p{
-   color: white;
-    
+#curriculum li p{
+    text-align: center;
+    padding: 8px;
 }
