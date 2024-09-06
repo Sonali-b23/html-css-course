@@ -56,7 +56,7 @@ h1, h2 {
 }
 nav {
     background-color: black;
-    text-align: center;
+    text-align:+ center;
 }
 nav ul {
     margin: 0;
@@ -110,4 +110,39 @@ footer {
     text-align: center;
     color: whitesmoke;
     padding: 10px 10px;
+}
+.hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+.hex {
+    width: 180px;
+    height: 100px; 
+    background-color:gainsboro;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding:10px
+}
+.hex:hover {
+    background-color:yellow;
+}
+.hex-content {
+    width: 100%;
+    text-align: center;
+    text-size-adjust:50px;
+    color: blue;
+    font-weight: bold;
+    padding: 20px;
+}
+#hex1{
+    margin-top: 50px;
+    margin-bottom: -10px;
 }
