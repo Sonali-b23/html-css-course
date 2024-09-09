@@ -7,6 +7,15 @@ header {
 h1, h2 {
     color: rgb(0, 0, 255);
 }
+iframe {
+    margin-left: 30%;
+    padding: 10px 10px;
+}
+#video p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
 .hero-section {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');
     background-color: rgb(38, 37, 37);
@@ -106,10 +115,43 @@ section {
     padding: 8px;
 }
 footer {
-    background-color: black;
+    background: color #333;
     text-align: center;
-    color: whitesmoke;
-    padding: 10px 10px;
+    color: white;
+    padding: 20px 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.social-icon i {
+    margin-right: 8px;
+}
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #007BFF; 
 }
 .hex-container {
     display: flex;
