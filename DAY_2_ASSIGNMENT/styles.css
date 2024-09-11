@@ -17,38 +17,108 @@ iframe {
     text-align: center;
 }
 .hero-section {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');
-    background-color: rgb(38, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
     background-size: cover;
     background-position: center;
-    height: 50vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
 }
-.hero-overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.slideshow {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: slideShow 15s infinite;
+}
+.hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    min-width: 100%;
     color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
 }
-.hero-overlay h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: white; 
+.hero-content h1 {
+    font-size: 3em;
+    margin-top: 5px;
+    color: rgb(243, 245, 245);
 }
-.hero-overlay p {
-    font-size: 1.5rem;
+.hero-content p {
+    font-size: 1.2em;
     margin-bottom: 30px;
+}
+.hero-content .btn {
+    display: inline;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: rgb(232, 228, 228);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.hero-content .btn:hover {
+    background-color: #0056b3;
+}
+.slideshow .hero-content:nth-child(1) {
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/1364078036/display_1500/stock-vector-human-hand-touching-on-a-book-low-poly-wireframe-online-education-blue-background-or-concept-with-1364078036.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #313131;
+}
+.slideshow .hero-content:nth-child(2) {
+    background-image: url('https://st2.depositphotos.com/1003697/8076/i/450/depositphotos_80763240-stock-photo-high-school-graduates-tossing-up.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #313131;
+}
+.slideshow .hero-content:nth-child(3) 
+{
+    background-image: url('https://watermark.lovepik.com/photo/50036/0163.jpg_wh1200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #313131;
+}
+@keyframes slideShow {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    60% {
+        transform: translateX(-200%);
+    }
+    80% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 .cta-button {
     background-color: blue; 
@@ -162,9 +232,9 @@ footer ul li {
     padding: 20px 0;
 }
 .hex {
-    width: 180px;
-    height: 100px; 
-    background-color:gainsboro;
+    width: 200px;
+    height: 120px; 
+    background-color:rgb(235, 233, 233);
     position: relative;
     text-align: center;
     display: flex;
@@ -172,7 +242,7 @@ footer ul li {
     justify-content: center;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     cursor: pointer;
-    padding:10px
+    padding:5px
 }
 .hex:hover {
     background-color:yellow;
@@ -183,10 +253,10 @@ footer ul li {
     text-size-adjust:50px;
     color: blue;
     font-weight: bold;
-    padding: 20px;
+    padding:25px;
 }
 #hex1{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: -10px;
 }
 .container {
@@ -213,7 +283,6 @@ h1 {
     font-weight: bold;
     color: #555;
 }
-
 .form-group input,
 .form-group textarea {
     width: 100%;
@@ -222,15 +291,12 @@ h1 {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .form-group textarea {
     resize: vertical;
 }
-
 .form-group input[type="file"] {
     border: none;
 }
-
 .form-group input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -244,7 +310,6 @@ h1 {
     cursor: pointer;
     border-radius: 4px;
 }
-
 .form-group input[type="submit"]:hover {
     background-color: #3eaf44;
 }
